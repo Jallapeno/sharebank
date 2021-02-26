@@ -1,27 +1,29 @@
 # Sharebank
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.1.
+### Código para o backend desta aplicação: <a href="https://github.com/Jallapeno/api-nodejs">Jallapeno/api-nodejs</a>
 
-## Development server
+Foi utilizado o Angular na versão 10.0.1.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Instalação
 
-## Code scaffolding
+abra o terminal e execute o comando "npm install"
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Rodando a aplicação no modo desenvolvedor
 
-## Build
+Execute o comando `ng serve --aot` . Navegue até `http://localhost:4200/`.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Criando build da aplicação
 
-## Running unit tests
+Execute o comando `ng build`. Os artefatos da build serão armazenados em `dist/` na raiz do projeto. Execute `--prod` para fazer uma build de produção.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Executanto testes unitários
 
-## Running end-to-end tests
+Execute o comando `ng test` para testar via  <a href="https://karma-runner.github.io">Karma</a>.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Executanto testes de ponta a ponta
 
-## Further help
+Execute o comando `ng e2e` para testar via <a href="http://www.protractortest.org/">Protractor</a>.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Executanto testes de arquitetura com lint
+
+Execute o comando `ng lint` para verificar se a arquitetura está no padrão.
