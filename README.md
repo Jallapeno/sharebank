@@ -1,7 +1,5 @@
 # Sharebank
 
-### Código para o backend desta aplicação: <a href="https://github.com/Jallapeno/api-nodejs">Jallapeno/api-nodejs</a>
-
 Foi utilizado o Angular na versão 10.0.1.
 
 ## Instalação
@@ -27,3 +25,5 @@ Execute o comando `ng e2e` para testar via <a href="http://www.protractortest.or
 ## Executanto testes de arquitetura com lint
 
 Execute o comando `ng lint` para verificar se a arquitetura está no padrão.
+
+### Código para o backend desta aplicação: <a href="https://github.com/Jallapeno/api-nodejs">Jallapeno/api-nodejs</a>
