@@ -8,10 +8,10 @@ import { Router } from '@angular/router';
 })
 export class HeaderComponent {
 
-  constructor(private router: Router,) { }
+  constructor(private router: Router) { }
 
   logout() {
-    this.router.navigate(['/account']);
+    this.router.navigate(['/authenticate']);
   }
 
 }

@@ -12,13 +12,8 @@ import { FullComponent } from './layouts/full/full.component';
 import { FooterComponent } from './templates/footer/footer.component';
 import { NavbarComponent } from './templates/navbar/navbar.component';
 import { HeaderComponent } from './templates/header/header.component';
-// angular material modules
-import { MatToolbarModule } from '@angular/material/toolbar';
-import { MatIconModule } from '@angular/material/icon';
-import { MatButtonModule } from '@angular/material/button';
-import { MatSidenavModule } from '@angular/material/sidenav';
-import { MatListModule } from '@angular/material/list';
-
+// angular material
+import { AngularMaterialModule } from './angular-material.module';
 
 @NgModule({
   declarations: [
@@ -33,11 +28,7 @@ import { MatListModule } from '@angular/material/list';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatToolbarModule,
-    MatIconModule,
-    MatButtonModule,
-    MatSidenavModule,
-    MatListModule
+    AngularMaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]

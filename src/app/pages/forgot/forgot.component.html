@@ -1,0 +1,34 @@
+<div class="waveWrapper waveAnimation" style="padding-top: 0;">
+    <div class="waveWrapperInner bgTop">  
+      <div class="wave waveTop" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')"></div>
+    </div>
+    
+    <div class="waveWrapperInner bgContent">
+      <mat-card>
+        <mat-card-content>
+          <form [formGroup]="form" (ngSubmit)="onSubmit()">
+            <mat-icon>account_balance</mat-icon>
+            <p>ShareBank</p>
+            <h2>Password Reset</h2>
+            <mat-form-field class="full-width-input">
+              <input matInput placeholder="E-mail" formControlName="username" required>
+            </mat-form-field>
+            <button mat-raised-button color="primary">Send reset link</button>
+          </form>
+          <br>
+          <button mat-button color="warn" [routerLink]="'/authenticate'">Cancel</button>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  
+    <div class="waveWrapperInner bgMiddle">
+      <div class="wave waveMiddle" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-mid.png')"></div>
+    </div>
+    <div class="waveWrapperInner bgBottom">
+      <div class="wave waveBottom" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-bot.png')"></div>
+    </div>
+  </div>
+  
+  
+  
+  
